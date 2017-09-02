@@ -1,22 +1,37 @@
 
 # Frontend Developer Test
 
-Please fork this repository to begin your front end developer test, then download your repository and follow the installation instructions.
+## Login
+![login](public/static/media/login.png "login")
 
-# Installation
-Installation requires node.js on your computer
+## States
+![states](public/static/media/states.png "states")
 
-npm install
+## Guestbooks
+![guestbooks](public/static/media/guestbooks.png "guestbooks")
 
-node server.js
+# Question and Answers
 
-# Instructions
-There should now be a web server running at http://localhost:8888
-Follow the instructions displayed on that webpage.
+- What URL should be used to access your application?
+  - Clone the Git repository and run `npm install` and `node server.js`. Then access `http://localhost:8888/`.
 
-The node server provides everything you need for the back end of the test. You are welcome to look at the server code, but you should not need to modify anything to make your front end work. All of your code should be placed in the public directory in this project. The node server will act as the web server for your front end application.
+- What libraries did you use to write your application?
+  - Node.js runtime environment, Admin on Rest (ReactJS and Material design for styling)
 
-Please insure that your code runs properly with the node server. Test all the features and make sure that no Javascript errors are generated.
+- What influenced the design of your user interface?
+  - Google Material Design
 
-Thank you
+- What steps did you take to make your applciation user friendly?
+  - Used Google Material Design best practices comes with the kit; it is also responsive and touch friendly.
 
+- What steps did you take to insure your application was secure?
+  - Fixed the `server.js` script to use token; instead of cookie, as it didn't work client side Ajax.
+  - Security of the app is still not good. We usually use oAuth based approach.
+
+- What could be done to the front end or back end to make it more secure?
+  - Rewrite REST API to make use of oAuth protocol or JWT token.
+  - In the front end too, make use of oAuth specific approach or JWT token approach.
+
+# License
+
+Copyright (c) 2017 [Agriya](https://www.agriya.com/).
