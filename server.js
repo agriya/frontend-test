@@ -28,7 +28,7 @@ function sendUnauthorized(response) {
 }
 
 app.post('/login', function(request, response) {
-    var user = request.body.user;
+    var user = request.body.username;
     if (users[user] === undefined) {
         return sendUnauthorized(response);
     }
@@ -68,7 +68,7 @@ app.get('/states/:abbrev', function(request, response) {
     var abbrev = request.params.abbrev;
 
     for (var ind=0; ind<states.length; ind++) {
-        if (states[ind].abbreviation == abbrev) {
+        if (states[ind].id == abbrev) {
             response.json(states[ind]);
             return false;
         }
@@ -99,6 +99,7 @@ app.get('/states',function(request, response) {
         limit = 10;
     }
     result = result.slice(offset, offset+limit);
+    response.set('X-Total-Count', result.length);
     response.json(result);
 });
 
@@ -110,8 +111,8 @@ app.get('/secret', function(request, response) {
     response.json({user: user, message: "This is the secret message"});
 });
 
-app.post('/write', function(request, response) {
-    var user = request.cookies.login;
+app.post('/guestbooks', function(request, response) {
+    var user = request.body.user;
     if (users[user] === undefined) {
         return sendUnauthorized(response);
     }
@@ -126,7 +127,8 @@ app.post('/write', function(request, response) {
     response.json(msgs);
 });
 
-app.get('/read', function(request, response) {
+app.get('/guestbooks', function(request, response) {
+    response.set('X-Total-Count', msgs.length);
     response.json(msgs);
 });
 

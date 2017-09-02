@@ -1,5 +1,6 @@
 [
     {
+      "id": 1,
       "name": "ALABAMA",
       "abbreviation": "AL",
       "capital": "Montgomery",
@@ -11,6 +12,7 @@
       "dst": "YES"
     },
     {
+      "id": 2,
       "name": "ALASKA",
       "abbreviation": "AK",
       "capital": "Juneau",
@@ -22,6 +24,7 @@
       "dst": "YES"
     },
     {
+      "id": 3,
       "name": "ARIZONA",
       "abbreviation": "AZ",
       "capital": "Phoenix",
@@ -33,6 +36,7 @@
       "dst": "NO"
     },
     {
+      "id": 4,
       "name": "ARKANSAS",
       "abbreviation": "AR",
       "capital": "Little Rock",
@@ -44,6 +48,7 @@
       "dst": "YES"
     },
     {
+      "id": 5,
       "name": "CALIFORNIA",
       "abbreviation": "CA",
       "capital": "Sacramento",
@@ -55,6 +60,7 @@
       "dst": "YES"
     },
     {
+      "id": 6,
       "name": "COLORADO",
       "abbreviation": "CO",
       "capital": "Denver",
@@ -66,6 +72,7 @@
       "dst": "YES"
     },
     {
+      "id": 7,
       "name": "CONNECTICUT",
       "abbreviation": "CT",
       "capital": "Hartford",
@@ -77,6 +84,7 @@
       "dst": "YES"
     },
     {
+      "id": 8,
       "name": "DELAWARE",
       "abbreviation": "DE",
       "capital": "Dover",
@@ -88,6 +96,7 @@
       "dst": "YES"
     },
     {
+      "id": 9,
       "name": "FLORIDA",
       "abbreviation": "FL",
       "capital": "Tallahassee",
@@ -99,6 +108,7 @@
       "dst": "YES"
     },
     {
+      "id": 10,
       "name": "GEORGIA",
       "abbreviation": "GA",
       "capital": "Atlanta",
@@ -110,6 +120,7 @@
       "dst": "YES"
     },
     {
+      "id": 11,
       "name": "HAWAII",
       "abbreviation": "HI",
       "capital": "Honolulu",
@@ -121,6 +132,7 @@
       "dst": "NO"
     },
     {
+      "id": 12,
       "name": "IDAHO",
       "abbreviation": "ID",
       "capital": "Boise",
@@ -132,6 +144,7 @@
       "dst": "YES"
     },
     {
+      "id": 13,
       "name": "ILLINOIS",
       "abbreviation": "IL",
       "capital": "Springfield",
@@ -143,6 +156,7 @@
       "dst": "YES"
     },
     {
+      "id": 14,
       "name": "INDIANA",
       "abbreviation": "IN",
       "capital": "Indianapolis",
@@ -154,6 +168,7 @@
       "dst": "YES"
     },
     {
+      "id": 15,
       "name": "IOWA",
       "abbreviation": "IA",
       "capital": "Des Moines",
@@ -165,6 +180,7 @@
       "dst": "YES"
     },
     {
+      "id": 16,
       "name": "KANSAS",
       "abbreviation": "KS",
       "capital": "Topeka",
@@ -176,6 +192,7 @@
       "dst": "YES"
     },
     {
+      "id": 17,
       "name": "KENTUCKY",
       "abbreviation": "KY",
       "capital": "Frankfort",
@@ -187,6 +204,7 @@
       "dst": "YES"
     },
     {
+      "id": 18,
       "name": "LOUISIANA",
       "abbreviation": "LA",
       "capital": "Baton Rouge",
@@ -198,6 +216,7 @@
       "dst": "YES"
     },
     {
+      "id": 19,
       "name": "MAINE",
       "abbreviation": "ME",
       "capital": "Augusta",
@@ -209,6 +228,7 @@
       "dst": "YES"
     },
     {
+      "id": 20,
       "name": "MARYLAND",
       "abbreviation": "MD",
       "capital": "Annapolis",
@@ -220,6 +240,7 @@
       "dst": "YES"
     },
     {
+      "id": 21,
       "name": "MASSACHUSETTS",
       "abbreviation": "MA",
       "capital": "Boston",
@@ -231,6 +252,7 @@
       "dst": "YES"
     },
     {
+      "id": 22,
       "name": "MICHIGAN",
       "abbreviation": "MI",
       "capital": "Lansing",
@@ -242,6 +264,7 @@
       "dst": "YES"
     },
     {
+      "id": 23,
       "name": "MINNESOTA",
       "abbreviation": "MN",
       "capital": "Saint Paul",
@@ -253,6 +276,7 @@
       "dst": "YES"
     },
     {
+      "id": 24,
       "name": "MISSISSIPPI",
       "abbreviation": "MS",
       "capital": "Jackson",
@@ -264,6 +288,7 @@
       "dst": "YES"
     },
     {
+      "id": 25,
       "name": "MISSOURI",
       "abbreviation": "MO",
       "capital": "Jefferson City",
@@ -275,6 +300,7 @@
       "dst": "YES"
     },
     {
+      "id": 26,
       "name": "MONTANA",
       "abbreviation": "MT",
       "capital": "Helena",
@@ -286,6 +312,7 @@
       "dst": "YES"
     },
     {
+      "id": 27,
       "name": "NEBRASKA",
       "abbreviation": "NE",
       "capital": "Lincoln",
@@ -297,6 +324,7 @@
       "dst": "YES"
     },
     {
+      "id": 28,
       "name": "NEVADA",
       "abbreviation": "NV",
       "capital": "Carson City",
@@ -308,6 +336,7 @@
       "dst": "YES"
     },
     {
+      "id": 29,
       "name": "NEW HAMPSHIRE",
       "abbreviation": "NH",
       "capital": "Concord",
@@ -319,6 +348,7 @@
       "dst": "YES"
     },
     {
+      "id": 30,
       "name": "NEW JERSEY",
       "abbreviation": "NJ",
       "capital": "Trenton",
@@ -330,6 +360,7 @@
       "dst": "YES"
     },
     {
+      "id": 31,
       "name": "NEW MEXICO",
       "abbreviation": "NM",
       "capital": "Santa Fe",
@@ -341,6 +372,7 @@
       "dst": "YES"
     },
     {
+      "id": 32,
       "name": "NEW YORK",
       "abbreviation": "NY",
       "capital": "Albany",
@@ -352,6 +384,7 @@
       "dst": "YES"
     },
     {
+      "id": 33,
       "name": "NORTH CAROLINA",
       "abbreviation": "NC",
       "capital": "Raleigh",
@@ -363,6 +396,7 @@
       "dst": "YES"
     },
     {
+      "id": 34,
       "name": "NORTH DAKOTA",
       "abbreviation": "ND",
       "capital": "Bismarck",
@@ -374,6 +408,7 @@
       "dst": "YES"
     },
     {
+      "id": 35,
       "name": "OHIO",
       "abbreviation": "OH",
       "capital": "Columbus",
@@ -385,6 +420,7 @@
       "dst": "YES"
     },
     {
+      "id": 36,
       "name": "OKLAHOMA",
       "abbreviation": "OK",
       "capital": "Oklahoma City",
@@ -396,6 +432,7 @@
       "dst": "YES"
     },
     {
+      "id": 37,
       "name": "OREGON",
       "abbreviation": "OR",
       "capital": "Salem",
@@ -407,6 +444,7 @@
       "dst": "YES"
     },
     {
+      "id": 38,
       "name": "PENNSYLVANIA",
       "abbreviation": "PA",
       "capital": "Harrisburg",
@@ -418,6 +456,7 @@
       "dst": "YES"
     },
     {
+      "id": 39,
       "name": "RHODE ISLAND",
       "abbreviation": "RI",
       "capital": "Providence",
@@ -429,6 +468,7 @@
       "dst": "YES"
     },
     {
+      "id": 40,
       "name": "SOUTH CAROLINA",
       "abbreviation": "SC",
       "capital": "Columbia",
@@ -440,6 +480,7 @@
       "dst": "YES"
     },
     {
+      "id": 41,
       "name": "SOUTH DAKOTA",
       "abbreviation": "SD",
       "capital": "Pierre",
@@ -451,6 +492,7 @@
       "dst": "YES"
     },
     {
+      "id": 42,
       "name": "TENNESSEE",
       "abbreviation": "TN",
       "capital": "Nashville",
@@ -462,6 +504,7 @@
       "dst": "YES"
     },
     {
+      "id": 43,
       "name": "TEXAS",
       "abbreviation": "TX",
       "capital": "Austin",
@@ -473,6 +516,7 @@
       "dst": "YES"
     },
     {
+      "id": 44,
       "name": "UTAH",
       "abbreviation": "UT",
       "capital": "Salt Lake City",
@@ -484,6 +528,7 @@
       "dst": "YES"
     },
     {
+      "id": 45,
       "name": "VERMONT",
       "abbreviation": "VT",
       "capital": "Montpelier",
@@ -495,6 +540,7 @@
       "dst": "YES"
     },
     {
+      "id": 46,
       "name": "VIRGINIA",
       "abbreviation": "VA",
       "capital": "Richmond",
@@ -506,6 +552,7 @@
       "dst": "YES"
     },
     {
+      "id": 47,
       "name": "WASHINGTON",
       "abbreviation": "WA",
       "capital": "Olympia",
@@ -517,6 +564,7 @@
       "dst": "YES"
     },
     {
+      "id": 48,
       "name": "WEST VIRGINIA",
       "abbreviation": "WV",
       "capital": "Charleston",
@@ -528,6 +576,7 @@
       "dst": "YES"
     },
     {
+      "id": 49,
       "name": "WISCONSIN",
       "abbreviation": "WI",
       "capital": "Madison",
@@ -539,6 +588,7 @@
       "dst": "YES"
     },
     {
+      "id": 50,
       "name": "WYOMING",
       "abbreviation": "WY",
       "capital": "Cheyenne",
